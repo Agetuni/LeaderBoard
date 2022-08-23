@@ -8,6 +8,7 @@
 ## Built With
 
 - Js
+- HTML5 / CSS
 - web pack
 
 ## Live Demo 
@@ -16,7 +17,18 @@
 
 ## Getting Started
 This is a simple html/css and js  project.
-
+Clone the repository  :
+```bash
+git clone  https://github.com/Agetuni/LeaderBoard.git
+```
+install packages  :
+```bash
+npm i
+```
+Run the system   :
+```bash
+npm run start
+```
 
 ## Authors
 
@@ -30,7 +42,7 @@ This is a simple html/css and js  project.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](../issues/).
 
 ## Show your support
 
