@@ -2,6 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  experiments: {
+    topLevelAwait: true,
+  },
   entry: './src/index.js',
   mode: 'development',
   devServer: {
