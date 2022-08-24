@@ -1,0 +1,57 @@
+body {
+  font-size: 3vh;
+}
+
+main {
+  width: 50%;
+  margin: 20px auto;
+  padding-top: 20vh;
+}
+
+.scores {
+  margin: 5vh 2vh;
+}
+
+.scores span {
+  font-size: 4vh;
+  font-weight: bold;
+  margin: 5vh 0;
+}
+
+.board {
+  display: flex;
+}
+
+.add-score {
+  padding-left: 5vh;
+}
+
+.add-score form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.add-score form input {
+  margin-top: 1vh;
+  width: 100%;
+}
+
+#submit {
+  width: 20%;
+}
+
+table {
+  margin-top: 2vh;
+  border: 1px black solid;
+  width: 100%;
+  font-size: 2vh;
+}
+
+tr:nth-child(even) {
+  background: #ccc;
+}
+
+tr:nth-child(odd) {
+  background: #fff;
+}
