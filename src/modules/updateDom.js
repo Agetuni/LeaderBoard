@@ -6,7 +6,7 @@ const displayScore = async (baseurl, relativeurl) => {
   let scoreHtml = '';
   scores.forEach((element) => {
     scoreHtml += ` <tr>
-        <td>${element.user} : ${element.score}</td>
+        <td>${element.user} </td> <td> ${element.score}</td>
     </tr>`;
   });
   table.innerHTML = scoreHtml;

@@ -1,57 +1,38 @@
-body {
+.board {
+  width: 60%;
+  margin: 24vh auto;
+}
+
+.header-text {
+  font-size: 6vh;
+}
+
+.leaderboard {
+  margin: 3vh 1vh;
+  text-align: center;
+}
+
+.leaderboard-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leaderboard span,
+.headertext {
   font-size: 3vh;
 }
 
-main {
-  width: 50%;
-  margin: 20px auto;
-  padding-top: 20vh;
+.addscore {
+  text-align: center;
+  width: 100%;
+  margin: 3vh 0;
 }
 
-.scores {
-  margin: 5vh 2vh;
-}
-
-.scores span {
-  font-size: 4vh;
-  font-weight: bold;
+form {
   margin: 5vh 0;
 }
 
-.board {
-  display: flex;
-}
-
-.add-score {
-  padding-left: 5vh;
-}
-
-.add-score form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.add-score form input {
-  margin-top: 1vh;
-  width: 100%;
-}
-
-#submit {
-  width: 20%;
-}
-
-table {
-  margin-top: 2vh;
-  border: 1px black solid;
-  width: 100%;
-  font-size: 2vh;
-}
-
-tr:nth-child(even) {
-  background: #ccc;
-}
-
-tr:nth-child(odd) {
-  background: #fff;
+.table {
+  margin: 6vh;
+  width: 80%;
 }
